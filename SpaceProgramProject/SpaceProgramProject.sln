@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{eaf334c8-9dcf-bc02-df8b-ab4f25dc9a5e}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{3a85f5d0-c45a-a06c-a612-5b791ccd2c9a}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PackageManagerCheck", "PackageManagerCheck.csproj", "{35adcfd9-7f57-9c49-b4f5-4dc18e4e1cc7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,6 +14,10 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{eaf334c8-9dcf-bc02-df8b-ab4f25dc9a5e}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{eaf334c8-9dcf-bc02-df8b-ab4f25dc9a5e}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3a85f5d0-c45a-a06c-a612-5b791ccd2c9a}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3a85f5d0-c45a-a06c-a612-5b791ccd2c9a}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35adcfd9-7f57-9c49-b4f5-4dc18e4e1cc7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35adcfd9-7f57-9c49-b4f5-4dc18e4e1cc7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
