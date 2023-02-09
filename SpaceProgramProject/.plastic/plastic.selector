@@ -1,0 +1,4 @@
+repository "SpaceProgramProject@chenjaiyi@cloud.cn"
+  path "/"
+    br "/main"
+    co "/main"
