@@ -41,22 +41,22 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\SpaceCombatKit\Systems\Extras\WeaponsSystem\Scripts\Wizards\Editor\WizardHelpers.cs" />
-     <Compile Include="Assets\SpaceCombatKit\Systems\Extras\WeaponsSystem\Scripts\Wizards\Editor\ProjectileWeaponWizard.cs" />
      <Compile Include="Assets\SpaceCombatKit\SpaceCombat\Scripts\AI\Editor\ObstacleAvoidanceDebugging.cs" />
-     <Compile Include="Assets\SpaceCombatKit\Systems\Extras\EnergySystem\Scripts\Editor\PowerEditor.cs" />
-     <Compile Include="Assets\SpaceCombatKit\Systems\Basics\UVCFramework\Utility\CustomInput\Editor\CustomInputDrawer.cs" />
      <Compile Include="Assets\SpaceCombatKit\Systems\Extras\WeaponsSystem\Scripts\Wizards\Editor\MissileWeaponWizard.cs" />
      <Compile Include="Assets\SpaceCombatKit\Systems\Basics\CameraSystem\Scripts\Utilities\CameraViewParenting\Editor\CameraViewParentingItemDrawer.cs" />
      <Compile Include="Assets\SpaceCombatKit\Systems\Basics\UVCFramework\Utility\LinkableVariables\Editor\LinkableVariableDrawer.cs" />
+     <Compile Include="Assets\SpaceCombatKit\Systems\Extras\WeaponsSystem\Scripts\Wizards\Editor\MissileWizard.cs" />
+     <Compile Include="Assets\SpaceCombatKit\Systems\Basics\Engines\Editor\VehicleEngines3DSpeedEditor.cs" />
+     <Compile Include="Assets\SpaceCombatKit\Systems\Basics\UVCFramework\Utility\CustomInput\Editor\CustomInputDrawer.cs" />
      <Compile Include="Assets\SpaceCombatKit\SpaceCombat\Scripts\Editor\HelpLinks.cs" />
      <Compile Include="Assets\SpaceCombatKit\InstallManager\Editor\SCKInstallManager.cs" />
-     <Compile Include="Assets\SpaceCombatKit\Systems\Basics\UVCFramework\Utility\Conditions\Editor\ConditionDrawer.cs" />
-     <Compile Include="Assets\SpaceCombatKit\Systems\Basics\UVCFramework\Utility\CustomInput\Editor\CustomInputEditor.cs" />
-     <Compile Include="Assets\SpaceCombatKit\Systems\Extras\WeaponsSystem\Scripts\Wizards\Editor\MissileWizard.cs" />
      <Compile Include="Assets\SpaceCombatKit\Systems\Extras\WeaponsSystem\Scripts\Wizards\Editor\BeamWeaponWizard.cs" />
      <Compile Include="Assets\SpaceCombatKit\Systems\Extras\WeaponsSystem\Scripts\Wizards\Editor\ProjectileWizard.cs" />
-     <Compile Include="Assets\SpaceCombatKit\Systems\Basics\Engines\Editor\VehicleEngines3DSpeedEditor.cs" />
+     <Compile Include="Assets\SpaceCombatKit\Systems\Extras\WeaponsSystem\Scripts\Wizards\Editor\ProjectileWeaponWizard.cs" />
+     <Compile Include="Assets\SpaceCombatKit\Systems\Extras\EnergySystem\Scripts\Editor\PowerEditor.cs" />
+     <Compile Include="Assets\SpaceCombatKit\Systems\Basics\UVCFramework\Utility\Conditions\Editor\ConditionDrawer.cs" />
+     <Compile Include="Assets\SpaceCombatKit\Systems\Extras\WeaponsSystem\Scripts\Wizards\Editor\WizardHelpers.cs" />
+     <Compile Include="Assets\SpaceCombatKit\Systems\Basics\UVCFramework\Utility\CustomInput\Editor\CustomInputEditor.cs" />
      <Folder Include="Assets\SpaceCombatKit\Systems\Extras\WeaponsSystem\Scripts\Wizards\Editor" />
      <Folder Include="Assets\SpaceCombatKit\Systems\Basics\Engines\Editor" />
      <Folder Include="Assets\SpaceCombatKit\Systems\Basics\UVCFramework\Utility\LinkableVariables\Editor" />
@@ -778,8 +778,8 @@
      <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
      <HintPath>E:\Git\SpaceProgramProject\SpaceProgramProject\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.VisualScripting.Flow">
-     <HintPath>E:\Git\SpaceProgramProject\SpaceProgramProject\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+     <Reference Include="Unity.Postprocessing.Editor">
+     <HintPath>E:\Git\SpaceProgramProject\SpaceProgramProject\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.UI">
      <HintPath>E:\Git\SpaceProgramProject\SpaceProgramProject\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
@@ -789,6 +789,9 @@
      </Reference>
      <Reference Include="Unity.Rider.Editor">
      <HintPath>E:\Git\SpaceProgramProject\SpaceProgramProject\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Flow">
+     <HintPath>E:\Git\SpaceProgramProject\SpaceProgramProject\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UI">
      <HintPath>E:\Git\SpaceProgramProject\SpaceProgramProject\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
@@ -805,6 +808,9 @@
      <Reference Include="Unity.Services.Core.Analytics">
      <HintPath>E:\Git\SpaceProgramProject\SpaceProgramProject\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.Postprocessing.Runtime">
+     <HintPath>E:\Git\SpaceProgramProject\SpaceProgramProject\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.VisualScripting.Shared.Editor">
      <HintPath>E:\Git\SpaceProgramProject\SpaceProgramProject\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
      </Reference>
@@ -819,12 +825,6 @@
      </Reference>
      <Reference Include="Unity.VisualScripting.State">
      <HintPath>E:\Git\SpaceProgramProject\SpaceProgramProject\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Postprocessing.Editor">
-     <HintPath>E:\Git\SpaceProgramProject\SpaceProgramProject\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Postprocessing.Runtime">
-     <HintPath>E:\Git\SpaceProgramProject\SpaceProgramProject\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>
